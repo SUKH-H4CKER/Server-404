@@ -11,7 +11,7 @@ Welcome, dear user, to SUKH-H4CKER's powerful Server-404 Tool! We extend our war
 This tool, named "Server-404" and designed by SUKH-H4CKER using Python, is created for evaluating server performance. Its primary purpose is to assess server robustness, scalability, and response time. The tool utilizes HTTP request flooding to subject the server to high-load scenarios. It helps identify weak points and optimization requirements of the server.
 # TOOL OVERVIEW 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/SUKH-H4CKER/Server-404/blob/main/images/Screenshot_20231025-201034_Termux.png)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
