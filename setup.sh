@@ -85,7 +85,7 @@ clear
 python src/logo.py
 
 # List of required packages
-packages=("os" "time" "random" "sys" "rich" "socket" "platform" "threading" "user_agent" "requests")
+packages=("os" "time" "random" "sys" "rich" "socket" "platform" "threading" "user_agent" "requests" "termcolor")
 
 # Initialize colors
 green='\033[0;32m'
