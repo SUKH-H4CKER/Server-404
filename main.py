@@ -31,18 +31,24 @@ bl="\033[1;36;40m"
 
 print(g)
 print("1. DDos Ip Address")
-print("2. Wiev Url Ip Address")
-print("3. DDos site logs")
+print("2. DDos site logs")
+print("3. IP-Port Finder")
+print("4. Social-Links")
+print("5. Exit")
 op=int(input("Options: "))
 if(op==1):
- os.system("python2 src/ddos.py")
+ os.system("python src/Server-404-v2.py")
 elif(op==2):
- os.system("python src/Url.py")
-elif(op==3):
  os.system("python src/log-ddos.py")
+elif(op==3):
+ os.system("python src/ip-port.py")
+elif(op==4):
+ os.system('python src/social.py')
+elif(op==5):
+ os.system('exit')
 else:
- print("\033[1;31;40mInvalid input. Reloading Tools!") 
+ print("\033[1;31;40mInvalid input. Reloading Tools!")
  time.sleep(1.6)
  os.system("cd")
- os.system("cd Ultra-DDos")
+ os.system("cd Server-404-v2")
  os.system("python2 main.py")
